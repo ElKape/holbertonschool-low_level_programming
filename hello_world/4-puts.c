@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-/**
- * Coments
- */
+/** Coments */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzlen\");
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
