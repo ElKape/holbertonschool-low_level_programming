@@ -1,2 +1,10 @@
-#!/bin/bash
-gcc | printf("with proper grammar, but the outcome is a piece of art,/n") | return (0)
+#include <stdio.h>
+
+/**
+ * Coments
+ */
+int main(void)
+{
+printf("with proper grammar, but the outcome is a piece of art,/n");
+return (0);
+}
