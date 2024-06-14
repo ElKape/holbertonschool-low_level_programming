@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Positive anything is better than negative nothing
+ * main - Positive anything is better than negative nothing
  * Return: 0
 */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	u_dig = n%10;
+	u_dig = n % 10;
 		if (n > 5)
 			printf("Last digit of %i and %i is greater than 5\n", n, u_dig);
 		if (n == 0)
