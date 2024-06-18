@@ -7,7 +7,7 @@
  * @n: The number to begin counting at.
  * Return: null.
  */
-wwwww
+
 void print_to_98(int n)
 {
 	if (n < 98)
