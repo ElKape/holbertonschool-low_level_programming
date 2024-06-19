@@ -9,11 +9,11 @@
 void print_numbers(void)
 {
 	int n;
-	if (n <= 0 && >= 9)
+	if (n <= '0' && >= '9')
 	{
-		_putchar('n')
+		_putchar('n');
 	}
 	else
-	_putchar('\n')
+	_putchar('\n');
 	return (0);
 }
