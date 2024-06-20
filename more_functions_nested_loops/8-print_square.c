@@ -8,7 +8,6 @@
  */
 
 void print_square(int size)
-{
 	int a = 0;
 	int b = 0;
 
@@ -21,12 +20,11 @@ void print_square(int size)
 				_putchar('#');
 				b++;
 			}
-			a++;
-			b = 0;
-			_putchar('#');
-			_putchar('\n');
+		b = 0;
+		a++;
+		_putchar('\n');
 		}
 	}
 	else
-	_putchar('\n');
+		_putchar('\n');
 }
