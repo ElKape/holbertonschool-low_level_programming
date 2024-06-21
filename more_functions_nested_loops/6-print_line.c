@@ -3,7 +3,7 @@
 /**
  * print_line - Function that that draws a straight line in the terminal.
  *
- * @n: number
+ * @a: number
  * Return: null.
  */
 
